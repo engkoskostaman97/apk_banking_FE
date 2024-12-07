@@ -1,0 +1,33 @@
+/* Styling untuk container */
+.container.center {
+  display: flex;
+  flex-direction: column; /* Atur elemen dalam bentuk vertikal */
+  justify-content: center; /* Pusatkan secara vertikal */
+  align-items: center; /* Pusatkan secara horizontal */
+  height: 70vh; /* Gunakan seluruh tinggi viewport */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Tombol navigasi */
+.container.center button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.container.center button:hover {
+  background-color: red;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+
